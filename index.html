@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My name is Roopak Suresh. This is my personal blog." />
+
+    <meta name="author" content="Roopak Suresh" />
+    <meta name="copyright" content="Roopak Suresh" />
+
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+    <title>Roopak Suresh</title>
+
+    <!-- iPython Notebook script -->
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+            <script type="text/javascript">
+            init_mathjax = function() {
+                if (window.MathJax) {
+                    // MathJax loaded
+                    MathJax.Hub.Config({
+                        tex2jax: {
+                            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                            displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                        },
+                        displayAlign: 'left', // Change this to 'center' to center equations.
+                        "HTML-CSS": {
+                            styles: {'.MathJax_Display': {"margin": 0}}
+                        }
+                    });
+                    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                }
+            }
+            init_mathjax();
+        </script>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+      <!-- iPython Notebook script for collapsing and expanding code -->
+        <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $("div.collapseheader").click(function () {
+            $header = $(this).children("span").first();
+            $codearea = $(this).children(".input_area");
+            console.log($(this).children());
+            $codearea.slideToggle(500, function () {
+                $header.text(function () {
+                    return $codearea.is(":visible") ? "Collapse Code" : "Expand Code";
+                });
+            });
+        });
+        });
+        </script>
+        <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+    <!-- Bootstrap Core CSS -->
+    <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+
+         <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="/theme/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="/theme/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Pacifico|Nova+Round|EB+Garamond|Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
+    <link href="/theme/css/pelican-smoothie.css" rel="stylesheet">
+    <link href="/theme/css/pygment.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://rumblemuffin.github.io/theme/tipuesearch/tipuesearch.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+<script>
+    mixpanel.track("Page", {"Name": "Home Page", "url": "index.html"  }) ;
+</script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+   <div class="search-button">
+            <form id="search" class="floating-search" action="/search.html" onsubmit="return validateForm(this.elements['q'].value);">
+            <input type="search" class="search-query" placeholder="Search" name="q"></form>
+       </div>
+
+<!-- Intro Header -->
+
+
+
+    <div class="content-block">
+<header class="intro" style="background-image: url('images/covers/red.png'); ">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="avatarBox col-sm-12">
+                    <img style="background-image: url('images/avatar.jpeg')">
+                </div>
+                <div class="col-sm-12">
+                    <h1 class="brand-heading">Roopak Suresh</h1>
+                    <p class="intro-text">Engineer & Programmer.</p>
+                </div>
+                  <div class="col-sm-1 fixed-action-btn">
+                    <ul>
+                      <li><a href='#search' class="page-scroll btn-floating customcolor"><i class="material-icons">search</i></a></li>
+                      <li><a href='#contact' class="page-scroll btn-floating customcolor"><i class="material-icons">textsms</i></a></li>
+                      <li><a href='#about' class="page-scroll btn-floating customcolor"><i class="material-icons">info_outline</i></a></li>
+                    </ul>
+                    <a href='http://rumblemuffin.github.io/blog' class="btn-floating btn-large white page-scroll">
+                      <i class="material-icons md-dark">keyboard_arrow_right</i>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- About Section -->
+<section id="about" class="container content-section text-center" href="#">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2>About Me</h2>
+            My name is Roopak Suresh. 
+I’ve dabbled with Electronics,Python programming,Empowering people and photography. 
+I’m currently working towards a Bachelor’s degree in Electronics and Communication Engineering.
+</p><p>
+<img src="images/coverPicture.jpg" alt="Alt text! And a picture of me!" style="width:100%">
+</p><p>
+I love learning about things which intrigue me. My dream is that one day the world will be a better place. I love watching movies and having discussions with friends about them.I love reading books and listening to music. 
+
+On this website, I intend to share my personal opinion on facts,behaviours and all the lot,
+partly also as a way of establishing an archive. If you find anything interesting, feel absolutely 
+free to get in touch with me.
+</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container content-section text-center" href="#">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Contact Me</h2>
+            <p></p>
+            <p><a href="mailto:roopaksuresh@gmail.com">roopaksuresh@gmail.com</a>
+            </p>
+            <ul class="list-inline banner-social-buttons">
+                <li>
+                    <a href="http://twitter.com/Roopakstweets" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                </li>
+                <li>
+                    <a href="http://github.com/roopaksuresh" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/+RoopakSuresh/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+    <div id="footer" class="container text-center">
+        <div>pelican-smoothie is under The MIT License (MIT)</div>    </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/theme/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/theme/js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/theme/js/pelican-smoothie.js"></script>
+    <script type="text/javascript" src="http://rumblemuffin.github.io/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="http://rumblemuffin.github.io/theme/tipuesearch/tipuesearch.min.js"></script>
+<script>
+// jQuery to change FAB
+$(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+      if (scroll > window.innerHeight/4 ) {
+        $(".fixed-action-btn").addClass("scrolled");
+        $(".fixed-action-btn a.btn-large").attr("href", "#page-top")
+        $('.fixed-action-btn .btn-large .material-icons').text('keyboard_arrow_up');
+        $('.fixed-action-btn .btn-large').addClass('customcolor');
+        $('.fixed-action-btn .btn-large').removeClass('white');
+        $('.fixed-action-btn a.btn-large i').addClass('md-light');
+        $('.fixed-action-btn a.btn-large i').removeClass('md-dark');
+    }
+      if (scroll < window.innerHeight/4  ) {
+        $(".fixed-action-btn").removeClass("scrolled");
+        $(".fixed-action-btn a.btn-large").attr("href", "http://rumblemuffin.github.io/blog")
+        $('.fixed-action-btn .btn-large .material-icons').text('keyboard_arrow_right');
+        $('.fixed-action-btn .btn-large').removeClass('customcolor');
+        $('.fixed-action-btn .btn-large').addClass('white');
+        $('.fixed-action-btn a.btn-large i').removeClass('md-light');
+        $('.fixed-action-btn a.btn-large i').addClass('md-dark');
+    }
+});
+</script>
+
+<script>
+$(".fixed-action-btn").hover(function(){
+    $('.fixed-action-btn .btn-large .material-icons').text('description');
+    $('.fixed-action-btn.scrolled .btn-large .material-icons').text('keyboard_arrow_up');
+    }, function(){
+        $('.fixed-action-btn .btn-large .material-icons').text('keyboard_arrow_right');
+        $('.fixed-action-btn.scrolled .btn-large .material-icons').text('keyboard_arrow_up');
+});
+</script>
+
+<script>
+// jQuery to change FAB
+$(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+      if (scroll > window.innerHeight/4 ) {
+        $(".fixed-action-btn").addClass("scrolled");
+        $(".fixed-action-btn a.btn-large").attr("href", "#page-top")
+        $('.fixed-action-btn .btn-large .material-icons').text('keyboard_arrow_up');
+        $('.fixed-action-btn .btn-large').addClass('customcolor');
+        $('.fixed-action-btn .btn-large').removeClass('white');
+        $('.fixed-action-btn a.btn-large i').addClass('md-light');
+        $('.fixed-action-btn a.btn-large i').removeClass('md-dark');
+    }
+      if (scroll < window.innerHeight/4  ) {
+        $(".fixed-action-btn").removeClass("scrolled");
+        $(".fixed-action-btn a.btn-large").attr("href", "http://rumblemuffin.github.io/blog")
+        $('.fixed-action-btn .btn-large .material-icons').text('keyboard_arrow_right');
+        $('.fixed-action-btn .btn-large').removeClass('customcolor');
+        $('.fixed-action-btn .btn-large').addClass('white');
+        $('.fixed-action-btn a.btn-large i').removeClass('md-light');
+        $('.fixed-action-btn a.btn-large i').addClass('md-dark');
+    }
+});
+</script>
+
+<script>
+$(".fixed-action-btn").hover(function(){
+    $('.fixed-action-btn .btn-large .material-icons').text('description');
+    $('.fixed-action-btn.scrolled .btn-large .material-icons').text('keyboard_arrow_up');
+    }, function(){
+        $('.fixed-action-btn .btn-large .material-icons').text('keyboard_arrow_right');
+        $('.fixed-action-btn.scrolled .btn-large .material-icons').text('keyboard_arrow_up');
+});
+</script>
+
+</body>
+</html>
