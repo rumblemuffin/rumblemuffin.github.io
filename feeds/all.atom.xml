@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Blog</title><link href="http://rumblemuffin.github.io/" rel="alternate"></link><link href="http://rumblemuffin.github.io/feeds/all.atom.xml" rel="self"></link><id>http://rumblemuffin.github.io/</id><updated>2015-11-17T19:00:00+05:30</updated><entry><title>Track Protection in Firefox</title><link href="http://rumblemuffin.github.io/blog/2015/11/17/track-protection-in-firefox.html" rel="alternate"></link><updated>2015-11-17T19:00:00+05:30</updated><author><name>Roopak Suresh</name></author><id>tag:rumblemuffin.github.io,2015-11-17:blog/2015/11/17/track-protection-in-firefox.html</id><summary type="html">&lt;p&gt;&lt;img alt="Track Protection" src="http://o.aolcdn.com/hss/storage/midas/f0d730ba55898a63e749d04575e25b15/202479867/firefox-private-browsing.jpg" /&gt;&lt;/p&gt;
+&lt;h1&gt;Hello World,&lt;/h1&gt;
+&lt;p&gt;This blog of mine is about the new tracking protection feature in the Mozilla Firefox Browser version 42 and above.Let me cover what is tracking first and then go into how Firefox prevents this.&lt;/p&gt;
+&lt;h2&gt;What is Tracking ?&lt;/h2&gt;
+&lt;p&gt;Basically what tracking is is when you are browsing through sites and think you are are browsing safely,Third party ads in those site track your movements online which are known as digital footprints.These footprints allow you to be tracked throughout the web.
+for a better pictorial representation check:&lt;a href="https://www.abine.com/what-is-online-tracking/"&gt;What is Online Tracking&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;What are Cookies?&lt;/h2&gt;
+&lt;p&gt;Cookies are small encrypted document.It contains helpful information about you and your preferences.It helps the websites to store your preferences the first time you visit and have the same preferences the next time you visit without you having to set it again.
+As cookies gradually grew the size limitation of it was a problem at first,later they found a way to store unlimited information about you by making a unique id for you in your cookie and storing the information in their own servers.
+This led to the possibility of you being tracked and traced online.
+for a in depth video about cookies check: &lt;a href="https://www.youtube.com/watch?v=I01XMRo2ESg"&gt;What is a Cookie?&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Firefox Tracking Protection:&lt;/h2&gt;
+&lt;p&gt;Basically what Firefox Tracking Protection allows you to do is,It Blocks all the ads and other sources in a site which can potentially track you online.thereby giving you total anonymity and makes you feel safe and secure online.
+It also gives you the freedom to change which all sites can track you and which all can't.Thereby giving the user full control over his/her online experience.
+Wanna try the latest version of Firefox:&lt;a href="https://www.mozilla.org/en-US/firefox/new/"&gt;Download Firefox&lt;/a&gt;&lt;/p&gt;</summary><category term="firefox"></category></entry><entry><title>pelican-smoothie - My personal theme</title><link href="http://rumblemuffin.github.io/blog/2015/08/04/pelican-smoothie-my-personal-theme.html" rel="alternate"></link><updated>2015-08-04T19:00:00+05:30</updated><author><name>Roopak Suresh</name></author><id>tag:rumblemuffin.github.io,2015-08-04:blog/2015/08/04/pelican-smoothie-my-personal-theme.html</id><summary type="html">&lt;p&gt;pelican-smoothie is a minimal Pelican theme that is based on Bootstrap.&lt;/p&gt;
+&lt;h1&gt;Features&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://kdheepak.com/pelican-smoothie"&gt;Live&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screencast" src="https://raw.githubusercontent.com/kdheepak89/pelican-smoothie/master/screencast.gif" /&gt;&lt;/p&gt;
+&lt;h3&gt;Minimal design&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="https://raw.githubusercontent.com/kdheepak89/pelican-smoothie/master/screenshot1.png" /&gt;&lt;/p&gt;
+&lt;h3&gt;Customizable&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="https://raw.githubusercontent.com/kdheepak89/pelican-smoothie/master/screenshot2.png" /&gt;&lt;/p&gt;
+&lt;h3&gt;FAB?&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="https://raw.githubusercontent.com/kdheepak89/pelican-smoothie/master/screenshot3.png" /&gt;&lt;/p&gt;
+&lt;h3&gt;Solarized themed code blocks&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="https://raw.githubusercontent.com/kdheepak89/pelican-smoothie/master/screenshot4.png" /&gt;&lt;/p&gt;
+&lt;h3&gt;Disqus integration&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="https://raw.githubusercontent.com/kdheepak89/pelican-smoothie/master/screenshot5.png" /&gt;&lt;/p&gt;</summary><category term="pelican-themes"></category></entry></feed>
